@@ -1,0 +1,121 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ffcccc, #ffe6f2);
+  color: #4a004d;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff66b2;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  margin: 0;
+  font-size: 2.5em;
+  color: white;
+}
+
+.status-section {
+  background-color: #ff99cc;
+  padding: 15px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-text {
+  margin: 0;
+  font-size: 1.3em;
+  color: white;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.grid-item {
+  background-color: #ffe6f2;
+  border: 2px solid #ff66b2;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 40%;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+}
+
+.grid-item h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #4a004d;
+}
+
+.instructions-section {
+  text-align: center;
+  margin: 20px;
+}
+
+.instructions-button {
+  background-color: #e60073;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.instructions-button:hover {
+  background-color: #cc0066;
+  transform: translateY(-3px);
+}
+
+.instructions-panel {
+  background-color: #ff99cc;
+  border: 2px solid #e60073;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instructions-title {
+  font-size: 1.8em;
+  color: white;
+  margin-top: 0;
+}
+
+.instructions-list {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+.instructions-list li {
+  background-color: #ffb3d9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-bottom: 10px;
+  }

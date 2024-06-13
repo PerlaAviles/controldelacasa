@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ffcccc, #ffe6f2);
+  color: #4a004d;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffe6f2;
+  border: 2px solid #ff66b2;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+  margin-bottom: 100px;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 2.5em;
+  color: #4a004d;
+}
+
+.pin-area {
+  margin-top: 20px;
+}
+
+.pin-status {
+  font-size: 1.2em;
+  color: #4a004d;
+}
+
+.pin-display {
+  margin-top: 10px;
+  font-size: 3em;
+  color: #e60073;
+  border: 2px solid #ff66b2;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffb3d9;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}

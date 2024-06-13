@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lover House</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="Logo_t.png" alt="Logo de Lover House" class="logo">
+    <h1 class="header-title">Lover House System</h1>
+  </header>
+  <main>
+    <section class="status-section">
+      <p id="status" class="status-text">Estado actual: Esperando comando...</p>
+    </section>
+    <section class="grid-container">
+      <div class="grid-item">
+        <h2>Recámara</h2>
+        <p id="recamaraStatus">Luz apagada, Ventilador apagado</p>
+        <li> "Enciende/Apaga la luz de la recámara"</li>
+        <li>"Enciende/Apaga el ventilador"</li>
+      </div>
+      <div class="grid-item">
+        <h2>Sala</h2>
+        <p id="salaStatus">Luz apagada, Cortinas cerradas</p>
+        <li>Sala: "Enciende/Apaga la luz de la sala"</li>
+      </div>
+      <div class="grid-item">
+        <h2>Jardín</h2>
+        <p id="jardinStatus">Luz apagada</p>
+        <li>Jardín: "Enciende/Apaga la luz del jardín"</li>
+
+      </div>
+      <div class="grid-item">
+        <h2>Seguridad</h2>
+        <p id="seguridadStatus">Cámaras apagadas, Alarma desactivada</p>
+        <li>Cámaras de seguridad: "Enciende/Apaga las cámaras de seguridad"</li>
+        <li>Alarma: "Enciende/Apaga la alarma de la casa"</li>
+      </div>
+    </section>
+
+    <!--<section class="status-section">
+      <p id="status" class="status-text">Estado actual: Esperando comando...</p>
+      <h2 class="instructions-title">Comandos Disponibles</h2>
+      <ul class="instructions-list">
+        <li>Recámara: "Enciende/Apaga la luz de la recámara"</li>
+        <li>Sala: "Enciende/Apaga la luz de la sala"</li>
+        <li>Jardín: "Enciende/Apaga la luz del jardín"</li>
+        <li>Ventilador: "Enciende/Apaga el ventilador"</li>
+        <li>Cámaras de seguridad: "Enciende/Apaga las cámaras de seguridad"</li>
+        <li>Alarma: "Enciende/Apaga la alarma de la casa"</li>
+      </ul>
+    </section>
+  -->
+  </main>
+  <script src="controlVoz.js"></script>
+</body>
+</html>
